@@ -184,7 +184,7 @@ main {
 
 }
 
-/*             */
+/* A-summary-of-my-resume */
 
 .section-title {
     text-align: center;
@@ -228,4 +228,10 @@ main {
 }
 hr{
     margin-bottom: 30px;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 113px;
 }
