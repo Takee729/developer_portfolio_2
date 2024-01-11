@@ -20,7 +20,8 @@
     border: none;
     padding: 18px 35px;
 
-    
+
+
 }
 
 .header {
@@ -226,12 +227,59 @@ main {
     font-weight: 400;
     margin-bottom: 30px;
 }
-hr{
+
+hr {
     margin-bottom: 30px;
 }
 
-.resume-btn{
+.resume-btn {
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-bottom: 113px;
 }
+
+
+/* footer */
+.contact-container input,textarea{
+    border: none;
+    margin-bottom: 24px;
+    padding-top: 18px;
+    padding: 18px 30px;
+}
+
+.contact-container {
+    background-color: #FFF8F3;
+    ;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 130px 100px;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+}
+
+.connect-title {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.connect-description {
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 461px;
+    height: 64px;
+    
+} 
